@@ -36,7 +36,7 @@ console.log(userName); */
 }else{
     console.log("Good evening!")
 } */
-
+// Ternary operator
 // let result = time < 12 ? "Good morning" : time > 12 && time < 18 ? 
 // "Good afternoon" : "Good evening!";
 
