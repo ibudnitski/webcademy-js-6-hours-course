@@ -64,5 +64,11 @@ sayBye("Igor");
 function sum(a, b) {
     return a+b;
 }
+//Function callback!!!
+function doSomething(func){
+    return func(10,15);
+}
 
 console.log(sum(2,4));
+
+console.log(doSomething(sum));
