@@ -42,8 +42,17 @@ console.log(userName); */
 
 // console.log(result)
 
-let userName = "Test";
+// let userName = "Test";
 
-console.log(`Hello ${userName}! It is nice to see you!`);
+// console.log(`Hello ${userName}! It is nice to see you!`);
+
+function greetUser(name) {
+    console.log(`Hello ${name}! I am happy to see you here!`)
+}
+greetUser("Igor");
+greetUser("Anton");
+greetUser("Artjom");
+greetUser("Yurij");
+
 
 
