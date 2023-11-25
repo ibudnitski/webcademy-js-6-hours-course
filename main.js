@@ -46,6 +46,8 @@ console.log(userName); */
 
 // console.log(`Hello ${userName}! It is nice to see you!`);
 
+
+//Function declaration
 function greetUser(name) {
     console.log(`Hello ${name}! I am happy to see you here!`)
 }
@@ -55,4 +57,12 @@ greetUser("Artjom");
 greetUser("Yurij");
 
 
+// Function expression
+let sayBye = function (name) {
+    console.log(`Bye bye ${name}`)
+}
 
+sayBye("Igor");
+sayBye("Anton");
+sayBye("Artjom");
+sayBye("Yurij");
