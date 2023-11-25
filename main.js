@@ -52,17 +52,12 @@ function greetUser(name) {
     console.log(`Hello ${name}! I am happy to see you here!`)
 }
 greetUser("Igor");
-greetUser("Anton");
-greetUser("Artjom");
-greetUser("Yurij");
+
 
 
 // Function expression
 let sayBye = function (name) {
     console.log(`Bye bye ${name}`)
 }
-
 sayBye("Igor");
-sayBye("Anton");
-sayBye("Artjom");
-sayBye("Yurij");
+
