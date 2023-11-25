@@ -42,5 +42,8 @@ console.log(userName); */
 
 // console.log(result)
 
+let userName = "Test";
+
+console.log(`Hello ${userName}! It is nice to see you!`);
 
 
