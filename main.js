@@ -10,27 +10,41 @@ heading2.classList.add('green'); */
 
 // Выбор коллекции селекторов
 
-const headings = document.querySelectorAll('h2');
-console.log(headings);
+// const headings = document.querySelectorAll('h2');
+// console.log(headings);
 
 // headings.classList.add('red-text');
 
-for (const heading of headings) {
-    console.log(heading);
-    heading.classList.add('red-text');
-}
+// for (const heading of headings) {
+//     console.log(heading);
+//     heading.classList.add('red-text');
+// }
 
 
-const paragraphs = document.querySelectorAll('p');
+// const paragraphs = document.querySelectorAll('p');
 
-for (const paragraph of paragraphs) {
+//WITH FOR OF
+/* for (const paragraph of paragraphs) {
     console.log(paragraph)
     paragraph.classList.add('purple-text');
 }
+ */
+
+// FOR EACH EXAMPLE
+// paragraphs.forEach(element => {
+//     element.classList.add('purple-text');
+// });
 
 
+// ======= Работа с CSS классами ======= //
 
+const headingH2 = document.querySelector('h2');
+console.log(headingH2);
 
+headingH2.classList.add('red-text');
+headingH2.classList.remove('red-text');
+
+headingH2.classList.toggle('purple-text');
 
 
 
