@@ -201,7 +201,7 @@ console.log(person)
 
 // =================== OBJECTS methods ======================= //
 
-person.sayHi("Anton");
+//person.sayHi("Anton");
 
 // =================== OBJECTS THIS ======================= //
 
@@ -214,3 +214,10 @@ person.sayHi("Anton");
         console.log(`Hello ${name}! Меня зовут ${this.userName}`);
     }
 } */
+
+// =================== OBJECTS FOR IN ======================= //
+
+for (let key in person){
+    console.log(key);
+    console.log(key + `:` + person[key]);
+}
