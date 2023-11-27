@@ -168,7 +168,7 @@ function printBrand(brand, i) {
 let age = 10;
 let isMaried = true; */
 
-const person = {
+/* const person = {
     userName: 'Igor',
     age: 35,
     isMarried: true,
@@ -176,7 +176,7 @@ const person = {
     sayHi: function (name){
         console.log(`Hello ${name}! Меня зовут ${this.userName}`);
     }
-}
+} */
 
 /* console.log(person);
 
@@ -226,3 +226,31 @@ console.log(person)
 
 /* We can change object properties // add new // remove // change them, BUT WE CANNOT 
 change the link to another object */
+
+// =================== Classes / Constructors of objects ======================= //
+
+//Class is a blueprint for an object --> we can then create many similar objects
+
+/* class Person {
+    constructor(firstName, lastName, age, isMarried) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.isMarried = isMarried;
+    }
+
+    sayHello(name){
+        console.log(`Hello, ${name}! My name is ${this.firstName}`);
+    }
+}
+
+const person1 = new Person(`Igor`, `Budnitski`, 35, true);
+
+// console.log(person1);
+
+const person2 = new Person(`Pavel`, `Ivanov`, 23, false);
+
+// console.log(person2);
+
+person1.sayHello("Anton");
+person2.sayHello("Artjom"); */
