@@ -48,10 +48,10 @@ console.log(userName); */
 
 
 //Function declaration
-function greetUser(name) {
+/* function greetUser(name) {
     console.log(`Hello ${name}! I am happy to see you here!`)
 }
-greetUser("Igor");
+greetUser("Igor"); */
 
 
 
@@ -217,7 +217,12 @@ console.log(person)
 
 // =================== OBJECTS FOR IN ======================= //
 
-for (let key in person){
+/* for (let key in person){
     console.log(key);
     console.log(key + `:` + person[key]);
-}
+} */
+
+// =================== Const object and array, why we can change them? ======================= //
+
+/* We can change object properties // add new // remove // change them, BUT WE CANNOT 
+change the link to another object */
