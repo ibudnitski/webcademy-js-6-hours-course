@@ -55,20 +55,28 @@ greetUser("Igor");
 
 
 
-// Function expression
-let sayBye = function (name) {
-    console.log(`Bye bye ${name}`)
-}
-sayBye("Igor");
+// // Function expression
+// let sayBye = function (name) {
+//     console.log(`Bye bye ${name}`)
+// }
+// sayBye("Igor");
 
-function sum(a, b) {
-    return a+b;
-}
-//Function callback!!!
-function doSomething(func){
-    return func(10,15);
-}
+// function sum(a, b) {
+//     return a+b;
+// }
+// //Function callback!!!
+// function doSomething(func){
+//     return func(10,15);
+// }
 
-console.log(sum(2,4));
+// console.log(sum(2,4));
 
-console.log(doSomething(sum));
+// console.log(doSomething(sum));
+
+// IIFE ///
+
+/* let result = (function (a,b) {
+    return a +b;
+})(5,4);
+
+console.log(result) */
