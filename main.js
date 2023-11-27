@@ -124,3 +124,41 @@ autoBrands.splice(2, 1);
 console.log(autoBrands); */
 
 
+//Loops
+
+//FOR LOOP//
+/* console.log('Start');
+
+for (let index = 0; index < autoBrands.length; index++) {  
+    console.log(autoBrands[index]);
+}
+console.log("Finish");
+ */
+
+//FOR OF//
+/* for (let brand of autoBrands){
+    console.log(brand);
+} */
+
+//FOR EACH//
+/* autoBrands.forEach(element => {
+    console.log(element)
+}); */
+
+/* autoBrands.forEach(function(item){
+    console.log(item);
+});
+
+autoBrands.forEach(function(item, index){
+    console.log(`${item} => ${index}`);
+});
+ */
+
+//CREATE FUNCTION AND THEN PASS TO THE FOR EACH LOOP///
+/* autoBrands.forEach(printBrand);
+
+function printBrand(brand, i) {
+    console.log(`${brand} => ${i}`)
+}
+ */
+
