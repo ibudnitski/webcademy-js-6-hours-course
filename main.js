@@ -80,3 +80,17 @@ greetUser("Igor");
 })(5,4);
 
 console.log(result) */
+
+/// Arrow function in JS ES6
+
+
+function sayHi (name){
+    console.log(`Hello ${name}!`);
+}
+
+const arrowSayHi = (name) => {
+    console.log(`Hello Arrow ${name}`);
+}
+
+sayHi("Igor");
+arrowSayHi("Igor");
