@@ -172,7 +172,10 @@ const person = {
     userName: 'Igor',
     age: 35,
     isMarried: true,
-    profession: 'UX Designer'
+    profession: 'UX Designer',
+    sayHi: function (name){
+        console.log(`Hello ${name}! Меня зовут ${this.userName}`);
+    }
 }
 
 /* console.log(person);
@@ -195,3 +198,19 @@ console.log(person.sex); */
 /* delete person.sex;
 console.log(person)
  */
+
+// =================== OBJECTS methods ======================= //
+
+person.sayHi("Anton");
+
+// =================== OBJECTS THIS ======================= //
+
+/* const person = {
+    userName: 'Igor',
+    age: 35,
+    isMarried: true,
+    profession: 'UX Designer',
+    sayHi: function (name){
+        console.log(`Hello ${name}! Меня зовут ${this.userName}`);
+    }
+} */
