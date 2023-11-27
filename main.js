@@ -162,3 +162,36 @@ function printBrand(brand, i) {
 }
  */
 
+// =================== OBJECTS ======================= //
+
+/* let userName = 'Igor';
+let age = 10;
+let isMaried = true; */
+
+const person = {
+    userName: 'Igor',
+    age: 35,
+    isMarried: true,
+    profession: 'UX Designer'
+}
+
+/* console.log(person);
+
+console.log(person.userName);
+console.log(person.age);
+console.log(person.isMarried);
+
+console.log(person['age']);
+
+let propertyName = 'profession';
+console.log(person[propertyName]); */
+
+// add new object property
+
+/* person.sex = 'male';
+console.log(person.sex); */
+
+//delete object property
+/* delete person.sex;
+console.log(person)
+ */
