@@ -43,9 +43,10 @@ console.log(headingH2);
 
 headingH2.classList.add('red-text');
 headingH2.classList.remove('red-text');
-
 headingH2.classList.toggle('purple-text');
-
+console.log(headingH2.classList.contains('golden'));
+headingH2.classList.toggle('golden');
+console.log(headingH2.classList.contains('golden'));
 
 
 
