@@ -84,7 +84,7 @@ console.log(result) */
 /// Arrow function in JS ES6
 
 
-function sayHi (name){
+/* function sayHi (name){
     console.log(`Hello ${name}!`);
 }
 
@@ -94,3 +94,33 @@ const arrowSayHi = (name) => {
 
 sayHi("Igor");
 arrowSayHi("Igor");
+ */
+
+///Arrays
+
+const autoBrands = ['Audi', 'Mazda', 'Toyota', 'BWM'];
+// console.log(autoBrands);
+// console.log(autoBrands[0]);
+// console.log(autoBrands[1]);
+// console.log(autoBrands[2]);
+// console.log(autoBrands[6]); // undefined
+// console.log(autoBrands.length);
+
+/* //Array methods
+// push add to the end of array
+autoBrands.push("Lada");
+console.log(autoBrands);
+// pop delete from end of array
+autoBrands.pop();
+console.log(autoBrands);
+//Shift method deletes from array start
+autoBrands.shift();
+console.log(autoBrands)
+//Unshift method adds element to the start of the array
+autoBrands.unshift("Nissan");
+console.log(autoBrands)
+//Splice method
+autoBrands.splice(2, 1);
+console.log(autoBrands); */
+
+
