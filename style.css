@@ -6,6 +6,9 @@ body {
 .none { display: none; }
 
 .red { border: 1px solid red; }
+.red-text { 
+	color: red;
+}
 .green { border: 1px solid green; }
 .blue { border: 1px solid blue; }
 
@@ -117,4 +120,10 @@ h1 {
 	font-size: 22px;
 	font-weight: 20;
 	margin-right: 10px;
+}
+
+
+.purple-text {
+	color: purple;
+	font-weight: bold;
 }

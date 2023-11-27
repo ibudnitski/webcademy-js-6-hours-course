@@ -1,3 +1,114 @@
+// ======= Выбор DOM элементов ======= //
+
+//Выбор главного элемента DOM по селектору
+// document.querySelector('selector');
+
+//document.querySelector('h2').classList.add('red')
+
+/* const heading2 = document.querySelector('h2');
+heading2.classList.add('green'); */
+
+// Выбор коллекции селекторов
+
+const headings = document.querySelectorAll('h2');
+console.log(headings);
+
+// headings.classList.add('red-text');
+
+for (const heading of headings) {
+    console.log(heading);
+    heading.classList.add('red-text');
+}
+
+
+const paragraphs = document.querySelectorAll('p');
+
+for (const paragraph of paragraphs) {
+    console.log(paragraph)
+    paragraph.classList.add('purple-text');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 • • • • • JavaScript необходимые основы для начинающих • • • • •
 • • • • • • • • • • • • практический курс • • • • • • • • • • •
@@ -98,7 +209,7 @@ arrowSayHi("Igor");
 
 ///Arrays
 
-const autoBrands = ['Audi', 'Mazda', 'Toyota', 'BWM'];
+//const autoBrands = ['Audi', 'Mazda', 'Toyota', 'BWM'];
 // console.log(autoBrands);
 // console.log(autoBrands[0]);
 // console.log(autoBrands[1]);
