@@ -189,11 +189,68 @@ function formHandler(event) {
 } */
 
 
+// ======= setInterval / SetTimeout======= //
+
+/* const timerIntervalId = setInterval(function (){
+    console.log("FIRE!");
+}, 1000);
+
+// How to stop Interval
+clearInterval(timerIntervalId);
+ */
+
+/* const timerID = setTimeout(function () {
+    console.log("Set Time out")
+}, 2000);
+
+clearInterval(timerID); */
+
+/* const timerId = setInterval(function () {
+    console.log("SetInterval Fired!");
+}, 1000)
+
+setTimeout(function () {
+    clearInterval(timerId);
+}, 10000) */
 
 
+// <!-- Таймер setInterval СЕКУНДАМЕР-->
+
+// let counter = 0;
+// let timerID;
+
+// /* setInterval(function () {
+//     counter++;
+//     counterElement.innerText = counter;
+// }, 1000); */
+
+// const counterElement = document.querySelector('#counter')
+// // Start Button
+// const startBtnHTML = document.querySelector('#start');
+// startBtnHTML.onclick = function () {
+//     console.log("Start!")
+//     timerID = setInterval(function () {
+//         counter++;
+//         counterElement.innerText = counter;
+//     }, 1000);
+// }
 
 
+// // Stop button
+// const pauseBtnHTML = document.querySelector('#pause');
+// pauseBtnHTML.onclick = function () {
+//     console.log("PAUSE")
+//     clearInterval(timerID);
+// };
 
+// //Reset button
+// const resetBtnHTML = document.querySelector('#reset');
+// resetBtnHTML.onclick = function () {
+//     console.log("Reset");
+//     counter = 0;
+//     counterElement.innerText = counter;
+//     clearInterval(timerID);
+// };
 
 
 
