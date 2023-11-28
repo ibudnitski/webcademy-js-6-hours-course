@@ -143,10 +143,50 @@ const htmlExample = `<h2>${title}</h2>`;
 container.insertAdjacentHTML('beforeEnd', htmlExample); */
 
 
+// ======= Работа с элементами ======= //
 
+/* const toDoList = document.querySelector('#todo-list');
+const toDoForm = document.querySelector('#todo-form');
+const toDoInput = document.querySelector('#todo-input');
 
+toDoForm.addEventListener('submit', formHandler)
 
+function formHandler(event) {
+    event.preventDefault();
+    // First we recieve text from input field
+    const taskText = toDoInput.value;
+    console.log(taskText);
 
+    // LI tage creation
+    /* const liHTML = `<li>${taskText}</li>` */
+
+    // Add LI with element creation
+    const newTask = document.createElement('li');
+    newTask.innerText = taskText;
+
+    const deleteBtn = document.createElement('button');
+    deleteBtn.setAttribute('role', 'button');
+    deleteBtn.innerText = 'DELETE';
+    deleteBtn.style['margin-left'] = '15px';
+    newTask.append(deleteBtn);
+
+    deleteBtn.addEventListener('click', deleteTask);
+
+    toDoList.append(newTask);
+
+    // Adding this text to HTML page
+    /* toDoList.insertAdjacentHTML('beforeEnd', liHTML); */
+
+    // removing text from input form
+    toDoInput.value = '';
+
+    // return focus back to input field
+    toDoInput.focus();
+}
+
+function deleteTask() {
+    this.closest('li').remove();
+} */
 
 
 
