@@ -161,7 +161,7 @@ function formHandler(event) {
     /* const liHTML = `<li>${taskText}</li>` */
 
     // Add LI with element creation
-    const newTask = document.createElement('li');
+/*     const newTask = document.createElement('li');
     newTask.innerText = taskText;
 
     const deleteBtn = document.createElement('button');
@@ -178,16 +178,15 @@ function formHandler(event) {
     /* toDoList.insertAdjacentHTML('beforeEnd', liHTML); */
 
     // removing text from input form
-    toDoInput.value = '';
+/*     toDoInput.value = '';
 
     // return focus back to input field
     toDoInput.focus();
-}
-
-function deleteTask() {
-    this.closest('li').remove();
 } */
 
+/* function deleteTask() {
+    this.closest('li').remove();
+} */
 
 
 
