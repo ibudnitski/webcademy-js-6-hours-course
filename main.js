@@ -67,9 +67,9 @@ button.value = 'Text for the button';
 
 // ======= Работа с прослушкой событий ======= //
 
-const button = document.querySelector('#button');
+/* const button = document.querySelector('#button');
 const img = document.querySelector('#logo');
-button.value = 'DELETE';
+button.value = 'DELETE'; */
 /* button.addEventListener('click', function () {
     console.log('CLICK');
     img.remove();
@@ -90,8 +90,17 @@ button.onclick = function(){
 });
  */
 
+// ======= Работа с прослушкой событий ======= //
 
+const inputText = document.querySelector('#input-text');
+const textBlock = document.querySelector('#text-block');
 
+inputText.addEventListener('input', inputHandler);
+
+function inputHandler() {
+    console.log(inputText.value);
+    textBlock.innerText = inputText.value;
+}
 
 
 
