@@ -114,15 +114,33 @@ list.addEventListener('click', function (event) {
 })
  */
 
+// ======= Работа с элементами ======= //
 
+// Выбор контейнера
 
+/* const container = document.querySelector('#elementsContainer'); */
 
+// Создание заголовка
 
+/* const newHeader = document.createElement('h1');
+newHeader.innerText = 'New Chapter';
+container.append(newHeader); */
 
+// Клонирование элементов
 
+/* const mainHeader = document.createElement('header');
+const headerCopy = mainHeader.cloneNode(true);
+container.append(headerCopy);
+ */
 
+// Вставка разметки через строки
+/* const htmlExample = '<h2>One more Heading!</h2>';
+container.insertAdjacentHTML('beforeEnd', htmlExample); */
 
-
+// Вставка разметки через шаблонные строки
+/* const title = 'Text';
+const htmlExample = `<h2>${title}</h2>`;
+container.insertAdjacentHTML('beforeEnd', htmlExample); */
 
 
 
