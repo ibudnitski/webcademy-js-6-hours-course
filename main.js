@@ -50,7 +50,7 @@ console.log(headingH2.classList.contains('golden')); */
 
 // ======= Работа в CSS атрибутами ======= //
 
-const image = document.querySelector(`#logo`);
+/* const image = document.querySelector(`#logo`);
 console.log(image);
 const srcValue = image.getAttribute('src');
 console.log(srcValue);
@@ -63,9 +63,27 @@ image.src = './img/js.png';
 const button = document.querySelector('#button');
 button.setAttribute('value', 'Send');
 button.value = 'Text for the button';
+ */
 
+// ======= Работа с прослушкой событий ======= //
 
+const button = document.querySelector('#button');
+const img = document.querySelector('#logo');
+button.value = 'DELETE';
+/* button.addEventListener('click', function () {
+    console.log('CLICK');
+    img.remove();
+}); */
 
+button.onclick = function(){
+    console.log("click");
+    img.remove();
+}
+
+button.onclick = function(){
+    console.log("click");
+    img.remove();
+}
 
 
 
