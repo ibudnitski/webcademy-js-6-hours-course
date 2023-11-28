@@ -36,9 +36,9 @@ heading2.classList.add('green'); */
 // });
 
 
-// ======= Работа с CSS классами ======= //
+// ======= Работа в CSS классами ======= //
 
-const headingH2 = document.querySelector('h2');
+/* const headingH2 = document.querySelector('h2');
 console.log(headingH2);
 
 headingH2.classList.add('red-text');
@@ -46,8 +46,23 @@ headingH2.classList.remove('red-text');
 headingH2.classList.toggle('purple-text');
 console.log(headingH2.classList.contains('golden'));
 headingH2.classList.toggle('golden');
-console.log(headingH2.classList.contains('golden'));
+console.log(headingH2.classList.contains('golden')); */
 
+// ======= Работа в CSS атрибутами ======= //
+
+const image = document.querySelector(`#logo`);
+console.log(image);
+const srcValue = image.getAttribute('src');
+console.log(srcValue);
+
+image.setAttribute('src','./img/php.png');
+image.setAttribute('width','200');
+
+image.src = './img/js.png';
+
+const button = document.querySelector('#button');
+button.setAttribute('value', 'Send');
+button.value = 'Text for the button';
 
 
 
