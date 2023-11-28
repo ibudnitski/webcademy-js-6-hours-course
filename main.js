@@ -75,7 +75,7 @@ button.value = 'DELETE';
     img.remove();
 }); */
 
-button.onclick = function(){
+/* button.onclick = function(){
     console.log("click");
     img.remove();
 }
@@ -83,7 +83,12 @@ button.onclick = function(){
 button.onclick = function(){
     console.log("click");
     img.remove();
-}
+} */
+
+/* img.addEventListener('click', function(){
+    img.remove();
+});
+ */
 
 
 
