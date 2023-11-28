@@ -92,7 +92,7 @@ button.onclick = function(){
 
 // ======= Работа с прослушкой событий ======= //
 
-const inputText = document.querySelector('#input-text');
+/* const inputText = document.querySelector('#input-text');
 const textBlock = document.querySelector('#text-block');
 
 inputText.addEventListener('input', inputHandler);
@@ -100,11 +100,19 @@ inputText.addEventListener('input', inputHandler);
 function inputHandler() {
     console.log(inputText.value);
     textBlock.innerText = inputText.value;
-}
+} */
 
 
+// ======= Object event ======= //
 
+/* const list = document.querySelector('#list');
 
+list.addEventListener('click', function (event) {
+    // console.log(this);
+    // console.log(event);
+    console.log(event.target);
+})
+ */
 
 
 
